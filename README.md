@@ -14,8 +14,8 @@ In this assignment, you will design a simple DHT based on Chord. Although the de
 Just like the previous assignment, your app should have an activity and a content provider. However, the main activity should be used for testing only and should not implement any DHT functionality. The content provider should implement all DHT functionality (including communication using sockets) and support insert and query operations. Thus, if you run multiple instances of your app, all content provider instances should form a Chord ring and serve insert/query requests in a distributed fashion according to the Chord protocol.
 References
 Before we discuss the requirements of this assignment, here are two references for the Chord design:
-1. Lecture slides on Chord
-2. Chord paper
+1. Lecture slides on Chord http://www.cse.buffalo.edu/~stevko/courses/cse486/spring19/lectures/15-dht.pdf
+2. Chord paper http://www.cse.buffalo.edu/~stevko/courses/cse486/spring19/files/chord_sigcomm.pdf
 The lecture slides give an overview, but do not discuss Chord in detail, so it should be a good reference to get an overall idea. The paper presents pseudo code for implementing Chord, so it should be a good reference for actual implementation.
 Note
 It is important to remember that this assignment does not require you to implement everything about Chord. Mainly, there are three things you do not need to consider from the Chord paper.
